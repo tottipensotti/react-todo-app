@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  background: #232222;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}

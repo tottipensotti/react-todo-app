@@ -1,0 +1,40 @@
+.SearchBarContainer {
+    position: relative;
+}
+
+.TaskSearch {
+    background: rgba(85, 83, 83, 0.25);
+    border-radius: 30px;
+    border: 2px solid #202329;
+    height: 65px;
+    width: calc(100% - 8px);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: white;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+}
+
+.TaskSearch::placeholder {
+    color: rgba(100, 100, 100, 0.75);
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.TaskSearch:focus {
+    outline-color: white;
+}
+
+.SearchIcon {
+    position: absolute;
+    scale: 180%;
+    top: 25px;
+    right: 30px;
+    cursor: pointer;
+    color: rgba(100, 100, 100, 0.75);
+}
+
+.SearchIcon:hover {
+    color: white;
+}

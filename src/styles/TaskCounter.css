@@ -1,0 +1,27 @@
+h1 {
+    font-size: 48px;
+    text-align: left;
+    color: white;
+}
+
+.TaskCounter {
+    font-size: 24px;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.ProgressBar {
+    height: 15px;
+    width: calc(100% - 8px);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.ProgressBar-filled {
+    height: 15px;
+    width: 0%;
+    border-radius: 15px;
+    background-color: #229954;
+}
